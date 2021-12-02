@@ -2,7 +2,7 @@ const webpack = require("webpack");
 const AutoDllPlugin = require("autodll-webpack-plugin");
 const HtmlWebPackPlugin = require("html-webpack-plugin");
 
-const config = require("./webpack.config.js");
+const config = require("./webpack.config");
 
 config.plugins = config.plugins.concat(
   new webpack.optimize.ModuleConcatenationPlugin(),
