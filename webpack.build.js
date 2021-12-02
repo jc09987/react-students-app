@@ -2,7 +2,7 @@ const webpack = require("webpack");
 const FileManagerPlugin = require("filemanager-webpack-plugin");
 const CompressionPlugin = require("compression-webpack-plugin");
 
-const config = require("./webpack.config.js");
+const config = require("./webpack.config");
 
 config.devtool = "";
 
