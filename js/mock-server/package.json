@@ -1,0 +1,14 @@
+{
+  "name": "mock",
+  "version": "1.0.0",
+  "description": "react-app mock server",
+  "main": "index.js",
+  "repository": "https://github.com/jc09987/react-students-app#readme",
+  "author": "Juan Carlos Garcia-Ramirez",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1"
+  }
+}
